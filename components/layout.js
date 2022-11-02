@@ -1,19 +1,17 @@
 import Head from "next/head"
 import Header from './header'
-import Footer from './footer'
 
 export default function Layout({children}){
-  return (<>
+  return (<div className="bg-white w-[8.5in] h-[11in] p-8">
     <Head>
-      <title>nextjs w/ tailwindcss</title>
+      <title>New Dell Windows Business Computer Setup Checklist</title>
       <meta name="description" content="bv nextjs template with tailwindcss" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <Header />
 
-    <main>{children}</main>
+    <main className="pt-2">{children}</main>
 
-    <Footer />
-    </>)
+    </div>)
 }
