@@ -173,7 +173,7 @@ export default function Home() {
               <input 
               type='text'
               id={field.extraInputName} 
-              defaultValue='N/A'
+              placeholder='N/A'
               className="px-2 w-[25rem] leading-none outline outline-black outline-1"
               ></input>
             </div> : null}
