@@ -91,7 +91,7 @@ const checkboxFields = [
     "text": "Configure Screen Saver & Power Settings (Desktop or Laptop)",
   },
   {
-    "text": "Create a ‘Temp-DHS’ and \"ProgramCDs\"folder on root drive",
+    "text": "Create a \"Temp-DHS\" and \"ProgramCDs\" folder on root drive",
   },
   {
     "text": "Add shortcut to http://support.drakehs.com to the desktop AND to C:\\Users\\Default\\Desktop\\",
